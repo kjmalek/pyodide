@@ -1,16 +1,17 @@
 package:
   name: rasterio
-  version: 1.3.10
+  version: 1.3.11
   top-level:
     - rasterio
 source:
-  url: https://github.com/rasterio/rasterio/archive/1.3.10.tar.gz
-  sha256: 0da4bea271a7f2ef2c44f528245a4f5c76ec635d075a0bd834300c75924b62c5
+  url: https://github.com/rasterio/rasterio/archive/1.3.11.tar.gz
+  sha256: 398d206cc5d4e1b297a85257f0e892ac4c956a5fae5faaff918fa6032fa68547
 requirements:
   host:
     - numpy
     - gdal
     - libproj
+    - setuptools
   run:
     - numpy
     - affine
